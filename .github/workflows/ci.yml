@@ -1,4 +1,4 @@
-name: CI
+name: ci
 
 on:
   push:
@@ -19,5 +19,5 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
 
-    - name: Run Gradle build
-      run: ./gradlew build --console=plain
+    - name: Gradle build
+      run: ./gradlew build
